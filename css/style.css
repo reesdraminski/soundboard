@@ -1,0 +1,38 @@
+html {
+    font-family: sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+button {
+    background: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: .75em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#board {
+    margin-top: 1em;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-gap: 1em;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100px;
+    width: 100px;
+    
+    border: 1px solid black;
+    border-radius: 4px;
+}
